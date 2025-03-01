@@ -52,7 +52,7 @@ function NavBar() {
           <option value="series">Series</option>
           <option value="episode">Episode</option>
         </select>
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded">
+        <button type="submit" className="bg-blue-500 text-white p-2 rounded cursor-pointer">
           Search
         </button>
       </form>

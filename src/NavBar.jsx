@@ -83,11 +83,11 @@ function NavBar() {
           <button
             type="button"
             onClick={startListening}
-            className={`absolute right-2 top-1/2 -translate-y-1/2 p-1 rounded-full ${listening ? 'bg-blue-200' : 'bg-gray-200'}`}
+            className={`absolute right-2 top-1/2 -translate-y-1/2 p-1 rounded-full`}
             aria-label="Voice Search"
             tabIndex={-1}
           >
-            <MicrophoneIcon className="h-6 w-6 text-gray-700" aria-hidden="true" />
+            <MicrophoneIcon className={`h-6 w-6 ${listening ? 'text-blue-500' : 'text-gray-600'}`} aria-hidden="true" />
           </button>
         </div>
         <select
